@@ -7,7 +7,7 @@ function checkAnswer() {
     const rightSectionText = document.getElementById('right-section-text'); // Pobranie diva
 
     if (userAnswer.toLowerCase() === correctAnswer.toLowerCase() || userAnswer.toLowerCase() === correctAnswer_nospace.toLowerCase() || userAnswer.toLowerCase() === correctAnswer_pause.toLowerCase()  ) {
-        feedback.textContent = "Udało ci się rozwiązać szyfr cezara! (3 = K6)";
+        feedback.textContent = "Udało ci się rozwiązać wszystkie zagadki!";
         feedback.style.color = "green";
 
         rightSectionText.style.display="block";
