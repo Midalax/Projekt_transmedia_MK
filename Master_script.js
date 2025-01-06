@@ -1,7 +1,7 @@
 function checkAnswer() {
-    const correctAnswer = "szyfr bacona";
-    const correctAnswer_nospace = "szyfrbacona";
-    const correctAnswer_pause = "szyfr-bacona"; // Oczekiwana odpowiedź
+    const correctAnswer = "X2H4K6";
+    const correctAnswer_nospace = "X2 H4 K6";
+    const correctAnswer_pause = "X2-H4-K6"; // Oczekiwana odpowiedź
     const userAnswer = document.getElementById('solution').value.trim();
     const feedback = document.getElementById('feedback');
     const rightSectionText = document.getElementById('right-section-text'); // Pobranie diva

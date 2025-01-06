@@ -27,10 +27,10 @@
 
     <div class="container">
         <div class="left-section">
-            <div id="title">SZYFR CEZARA</div>
+            <div id="title">WPISZ KOD ZEBRANY Z ZAGADEK</div>
             <hr>
             <div id="zagadka">
-                <h2>nhqbzg-qbspbzg-jlghy</h2>
+                <h2>Przykład: A1B2C3</h2>
                 <div class="outer">
                     <div class="inner">
 
@@ -40,59 +40,69 @@
                         </button>
                         <p id="feedback" style="margin-top: 10px;"></p>
                         <div id="hint">
-                     Podpowiedź: (+7)<br>abcdefghijklmnopqrstuvwxyz
+                            Wpisz po kolei kod z rozwiązanych zagadek ( 1 = ? | 2 = ? | 3 = ? )
+                        </div>
                     </div>
-                    </div> 
-                    
+
                 </div>
-                
-              
+
+
             </div>
         </div>
         <div class="right-section">
             <div id="right-section-text">
-                <h4> Szyfr Cezara – Prosty, Klasyczny Algorytm Szyfrowania</h4>
+                <h4> Łamanie szyfrów – Wprowadzenie</h4>
 
                 <span id="tekst_info">
-                    Szyfr Cezara, zwany także szyfrem przesuwającym, to jeden z najstarszych i najprostszych algorytmów
-                    szyfrowania stosowanych w kryptografii. Jego nazwa pochodzi od Juliusza Cezara, który według
-                    historycznych
-                    przekazów używał tego szyfru do komunikacji z dowódcami wojskowymi. Szyfr ten opiera się na zasadzie
-                    przesuwania liter alfabetu o stałą liczbę miejsc.</span>
+                    Łamanie szyfrów to proces odkrywania ukrytej treści zaszyfrowanych wiadomości bez znajomości klucza
+                    szyfrującego. Historia łamania szyfrów jest ściśle powiązana z rozwojem kryptografii oraz technik
+                    zabezpieczania informacji i stanowi fascynującą dziedzinę na pograniczu matematyki, informatyki oraz
+                    nauk ścisłych.</span>
                 <hr>
 
                 <h4>
-                    Zalety szyfru Cezara
+                    Historia
                 </h4>
 
                 </hr>
                 <span id="tekst_info">
-                    Prostota: Jest bardzo łatwy do zrozumienia i zaimplementowania.
-                    Szybkość: Szyfrowanie i deszyfrowanie odbywa się szybko, nawet przy ręcznym wykonywaniu.</span>
+                    Łamanie szyfrów ma długą historię sięgającą czasów starożytnych. Już w starożytnym Egipcie stosowano
+                    podstawowe szyfrowanie hieroglifów, które jednak nie wymagało zaawansowanych technik do złamania. W
+                    czasach Juliusza Cezara używano szyfru przesuwnego, znanego jako szyfr Cezara, który był łamany
+                    metodą analizy częstości występowania liter.
+
+                    W średniowieczu rozwinięto bardziej złożone szyfry, takie jak szyfry polialfabetyczne, na przykład
+                    szyfr Vigenère’a. Jego złamanie stało się możliwe dopiero w XIX wieku dzięki pracy Charlesa
+                    Babbage’a i Friedricha Kasiski, którzy opracowali techniki analizy wzorców.</span>
                 <hr>
-                <h4> Wady szyfru Cezara</h4>
+                <h4> XX wiek – przełom w łamaniu szyfrów</h4>
 
                 <span id="tekst_info">
-                    Słabe bezpieczeństwo: Szyfr jest niezwykle podatny na złamanie. Istnieje tylko 25 możliwych kluczy
-                    (dla
-                    alfabetu łacińskiego), więc można łatwo przeprowadzić atak metodą siłową (sprawdzanie każdego klucza
-                    po
-                    kolei). Ponadto analiza częstotliwości liter w zaszyfrowanym tekście często ujawnia strukturę
-                    wiadomości.
-                    Ograniczony zakres: Szyfr działa najlepiej na alfabetach z ustaloną liczbą znaków i nie radzi sobie
-                    z
-                    bardziej skomplikowanymi systemami znaków.
+                    Największe postępy w łamaniu szyfrów nastąpiły podczas II wojny światowej. Jednym z najbardziej
+                    znanych przykładów jest złamanie niemieckiej maszyny szyfrującej Enigma przez polskich kryptologów
+                    (Mariana Rejewskiego, Jerzego Różyckiego i Henryka Zygalskiego). Ich prace zostały później
+                    rozwinięte przez zespół Alana Turinga w Bletchley Park w Wielkiej Brytanii. Turing stworzył maszyny
+                    wspomagające proces łamania szyfrów, co znacząco przyspieszyło analizę i wpłynęło na przebieg wojny.
+
+
                 </span>
 
                 <hr>
 
-                <h4>Zastosowania</h4>
+                <h4>Współczesne techniki łamania szyfrów</h4>
                 <span id="tekst_info">
-                    Choć szyfr Cezara jest obecnie bardziej ciekawostką historyczną niż narzędziem kryptograficznym,
-                    jest często
-                    wykorzystywany w edukacji do wprowadzania podstaw kryptografii. W prostych zastosowaniach, takich
-                    jak
-                    łamigłówki czy zabawy, nadal cieszy się popularnością.
+                    Obecnie łamanie szyfrów jest znacznie bardziej skomplikowane z powodu rozwoju kryptografii klucza
+                    publicznego i algorytmów takich jak RSA czy AES. Współczesne techniki łamania szyfrów opierają się
+                    na:
+
+                    Atakach siłowych – przeszukiwaniu wszystkich możliwych kluczy. Metoda ta jest czasochłonna i wymaga
+                    dużej mocy obliczeniowej.
+                    Atakach kryptograficznych – wykorzystaniu słabości w algorytmach szyfrujących, np. w przypadku źle
+                    zaimplementowanych funkcji haszujących.
+                    Analizie matematycznej – np. przy łamaniu szyfrów opartych na teorii liczb, takich jak RSA, stosuje
+                    się faktoryzację dużych liczb.
+                    Atakach kwantowych – rozwój komputerów kwantowych może zagrozić obecnym metodom kryptograficznym,
+                    np. dzięki algorytmowi Shora, który umożliwia szybkie rozkładanie na czynniki.
                 </span>
             </div>
         </div>
