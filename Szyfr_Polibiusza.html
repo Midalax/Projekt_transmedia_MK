@@ -6,15 +6,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Krótki opis strony, który będzie widoczny w wynikach wyszukiwania.">
+    <meta name="description" content="Nie wyszkuasz tej strony">
     <meta name="keywords" content="słowa kluczowe, oddzielone, przecinkami">
-    <meta name="author" content="Twoje Imię">
-    <title>Tytuł Strony</title>
+    <meta name="author" content="Miłosz Kwatera">
+    <title>Szyfr Polibjusza</title>
 
     <script src="https://kit.fontawesome.com/45c419c26b.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="Szyfr_cezara_styles.css">
-    <script src="Szyfr_cezara_JS.js"></script>
+    <script src="Szyfr_Polibiusza_JS.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -27,72 +27,66 @@
 
     <div class="container">
         <div class="left-section">
-            <div id="title">SZYFR CEZARA</div>
+            <div id="title">SZYFR POLIBIUSZA</div>
             <hr>
             <div id="zagadka">
-                <h2>nhqbzg-qbspbzg-jlghy</h2>
+                <h2>34, 55, 45, 12, 24, 53, 43, 13, 42, 21, 42, 54, 34, 55, 11</h2>
                 <div class="outer">
                     <div class="inner">
-
+                        <img id="pic" alt="Szyfr Polibjusza pic" src="SzyfrPolibjusza.jpg">
                         <input type="text" id="solution" placeholder="Wpisz odpowiedź">
                         <button title="chec" onclick="checkAnswer()" id="check">
                             <i class="fa-solid fa-arrow-right"></i></i>
                         </button>
                         <p id="feedback" style="margin-top: 10px;"></p>
                         <div id="hint">
-                     Podpowiedź: (+7)<br>abcdefghijklmnopqrstuvwxyz
+
+                        </div>
                     </div>
-                    </div> 
-                    
+
                 </div>
-                
-              
+
+
             </div>
         </div>
         <div class="right-section">
             <div id="right-section-text">
-                <h4> Szyfr Cezara – Prosty, Klasyczny Algorytm Szyfrowania</h4>
+                <h4> Szyfr Polibiusza</h4>
 
                 <span id="tekst_info">
-                    Szyfr Cezara, zwany także szyfrem przesuwającym, to jeden z najstarszych i najprostszych algorytmów
-                    szyfrowania stosowanych w kryptografii. Jego nazwa pochodzi od Juliusza Cezara, który według
-                    historycznych
-                    przekazów używał tego szyfru do komunikacji z dowódcami wojskowymi. Szyfr ten opiera się na zasadzie
-                    przesuwania liter alfabetu o stałą liczbę miejsc.</span>
+                    Szyfr Polibiusza (lub kwadrat Polibiusza) to jeden z klasycznych szyfrów stosowanych w kryptografii,
+                    który przypisuje każdej literze tekstu jawnego współrzędne w prostokątnej tablicy znaków. Szyfr ten
+                    został opracowany przez starożytnego greckiego historyka Polibiusza w II wieku p.n.e. i miał na celu
+                    ułatwienie przekazywania informacji w sposób zaszyfrowany.</span>
                 <hr>
 
                 <h4>
-                    Zalety szyfru Cezara
+                    Zalety szyfru polibiusza
                 </h4>
 
                 </hr>
                 <span id="tekst_info">
-                    Prostota: Jest bardzo łatwy do zrozumienia i zaimplementowania.
-                    Szybkość: Szyfrowanie i deszyfrowanie odbywa się szybko, nawet przy ręcznym wykonywaniu.</span>
+                    Jest prosty w implementacji i zrozumiały.
+                    Pozwala na kodowanie informacji w formie liczb, co może być użyteczne w sytuacjach, gdy trudniej
+                    jest przekazywać tekst.
+                    Może być rozszerzony do szyfrowania innych znaków lub wielojęzycznych tekstów.</span>
                 <hr>
-                <h4> Wady szyfru Cezara</h4>
+                <h4> Wady szyfru polibiusza</h4>
 
                 <span id="tekst_info">
-                    Słabe bezpieczeństwo: Szyfr jest niezwykle podatny na złamanie. Istnieje tylko 25 możliwych kluczy
-                    (dla
-                    alfabetu łacińskiego), więc można łatwo przeprowadzić atak metodą siłową (sprawdzanie każdego klucza
-                    po
-                    kolei). Ponadto analiza częstotliwości liter w zaszyfrowanym tekście często ujawnia strukturę
-                    wiadomości.
-                    Ograniczony zakres: Szyfr działa najlepiej na alfabetach z ustaloną liczbą znaków i nie radzi sobie
-                    z
-                    bardziej skomplikowanymi systemami znaków.
+                    Jest szyfrem podstawieniowym, co oznacza, że można go stosunkowo łatwo złamać przy pomocy analizy
+                    częstości występowania liter.
+                    Połączenie liter „I” i „J” może prowadzić do niejednoznaczności.
                 </span>
 
                 <hr>
 
                 <h4>Zastosowania</h4>
                 <span id="tekst_info">
-                    Choć szyfr Cezara jest obecnie bardziej ciekawostką historyczną niż narzędziem kryptograficznym,
-                    jest często
-                    wykorzystywany w edukacji do wprowadzania podstaw kryptografii. W prostych zastosowaniach, takich
-                    jak
-                    łamigłówki czy zabawy, nadal cieszy się popularnością.
+                    W starożytności szyfr Polibiusza był używany do kodowania wiadomości, zwłaszcza w sytuacjach
+                    wojennych.
+                    Współcześnie szyfr ten ma głównie wartość edukacyjną lub jest stosowany w prostych zagadkach
+                    kryptograficznych.
                 </span>
             </div>
         </div>

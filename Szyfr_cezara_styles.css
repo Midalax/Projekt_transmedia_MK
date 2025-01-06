@@ -26,19 +26,11 @@ body
 }
 
 /* Styl dla urządzeń mobilnych */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Układ w pionie */
-    height: 100vh;
-  }
 
-  .left-section{
-    width: 100%; /* Sekcje zajmują pełną szerokość kontenera */
-    height: 100vh;
-  }
-  .right-section{
-    height: 150vh
-  }
+#pic
+{
+  width: 60%;
+  height: 60%;
 }
 #title
 {
@@ -51,7 +43,7 @@ body
   margin-right: auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   font-size: 40px;
   
 }
@@ -155,3 +147,29 @@ h4
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Układ w pionie */
+    height: 100vh;
+  }
+
+  .left-section{
+    width: 100%; /* Sekcje zajmują pełną szerokość kontenera */
+    height: 100vh;
+  }
+  .right-section{
+    height: 150vh
+  }
+  #pic
+{
+  width: 80%;
+  height: 80%;
+}
+h2{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding: 0%;
+  color: #ffffff;
+}
+}
